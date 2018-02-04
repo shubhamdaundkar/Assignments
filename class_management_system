@@ -65,7 +65,8 @@ relations
   -teacher_id
   -subject_id
   -time
-  -classroom_no.
+  -month
+  -classroom_no
   -present_students
   -absent_students
   -no_of_girls
@@ -153,4 +154,3 @@ relations
   -account_holder_name
   -branch_name
 
--
