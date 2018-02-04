@@ -139,5 +139,18 @@ relations
   -payment_mode_id
   -payment_mode_name
   -payment_date
-  -teacher_id
-  -
+  -accountant_id
+
+-cradit_cards
+  -card_holder_name
+  -bank_name
+  -card_type      //visa/mastercard/gold/platinum/
+  -card_expiry_date
+
+-bank_details
+  -bank_name
+  -account_number
+  -account_holder_name
+  -branch_name
+
+-
