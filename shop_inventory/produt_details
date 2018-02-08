@@ -1,0 +1,16 @@
+class ProductDetails
+  attr_accessor :product_id,:product_name,:price
+   def add_product
+    puts "Enter the product details"
+    product=Hash.new
+    puts "Enter product id"
+    product[:product_id] = gets.chomp
+    puts "Enter product name"
+    product[:product_name] = gets.chomp
+    puts "Enter Product price"
+    product[:price] = gets.chomp
+    file = File.open("data.txt", "a+")
+    file.puts "#{product}"
+    file.close
+  end
+end
