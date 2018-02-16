@@ -1,0 +1,79 @@
+/*css for assignment 2*/
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  color: white;
+  background-color: grey;
+  text-align: center;
+  height: 100px;
+  padding: 10px
+}
+.header img {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+.header h4 {
+  color: black;
+  text-align: right;
+}
+.wallpaper {
+  padding: 0px 5px;
+}
+.wallpaper img {
+  height: 500px;
+  width: 1180px;
+  padding: 0px 50px;
+}
+.wallpaper h4 {
+  padding-left: 50px;
+  text-align: right;
+  color: #966F33;
+  position: absolute;
+}
+.wallpaper h2 {
+  color: black;
+  position: absolute;
+  padding: 150px 350px 100px 450px;
+  /*padding-top: 250px;
+  padding-right: 300px;*/
+}
+.carrossel {
+  padding: 20px 65px 20px 50px;
+}
+.carrossel img {
+  width: 300px;
+  height: 300px;
+  border: 05px solid;
+  padding-right: 75px;
+}
+.footer {
+  background-color: #333;
+  height: 170px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.footer a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+.footer iframe {
+  padding-right: 50px;
+  height: 130px;
+  width: 250px;
+  padding-bottom: 20px;
+}
+.footer fa-facebook {
+  background: #3B5998;
+  color: blue;
+  /*float: right;*/
+  /*padding-top: 30px;*/
+}
+.footer fa-instagram {
+  background: #125688;
+  color: blue;
+  /*padding-right: 35px;*/
+}
