@@ -1,0 +1,106 @@
+/*css for portfolio website designed by Shubham Doundkar*/
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  color: white;
+  background-color: grey;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+.header img {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+.header h4 {
+  color: black;
+  text-align: right;
+}
+.wallpaper {
+  padding: 0px 5px;
+}
+.wallpaper img {
+  height: 500px;
+  width: 1180px;
+  padding: 0px 50px;
+}
+.wallpaper h4 {
+  padding-left: 50px;
+  text-align: right;
+  color: #966F33;
+  position: absolute;
+}
+.wallpaper h2 {
+  color: black;
+  position: absolute;
+  padding: 150px 350px 100px 450px;
+  /*padding-top: 250px;
+  padding-right: 300px;*/
+}
+.port-folio-container {
+  padding: 20px 65px 20px 50px;
+}
+.port-folio-container h2 {
+  text-align: center;
+}
+.port-folio-container img {
+  width: 100%;
+  height:20%;
+  border: 05px solid;
+  padding-right: 6.25%;
+}
+.footer {
+  background-color: #333;
+  height: 170px;
+  width: 1276px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.footer a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  float: left;
+  padding-right: 30px;
+  display: block;
+}
+.footer iframe {
+  padding-right: 50px;
+  height: 160px;
+  width: 300px;
+  padding-left: 90px;
+  float: left;
+}
+.social-icon{
+  /*background: #3B5998;*/
+  color: blue;
+  /*padding-right: 30px;*/
+  padding-left: 10px;
+  float: left;
+}
+.social-web-links .social-icon:first-child {
+  padding-left: 10;
+}
+.button-up{
+
+}
+.button-up img {
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  height: 35px;
+  width: 35px;
+  margin-right: 0px;
+}
+/* media query for mobile responsive website
+*/
+@media (max-width:600px){
+  .header, .header img {
+    width:100%;
+    height: auto;
+    padding: 0px; /*The width is 100%, when the viewport is 600px or smaller*/
+  }
+}
