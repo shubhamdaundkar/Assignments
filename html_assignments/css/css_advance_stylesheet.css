@@ -1,5 +1,5 @@
 /*css for portfolio website designed by Shubham Doundkar*/
-body{
+ body{
   padding: 0px;
   margin: 0px;
 }
@@ -7,7 +7,7 @@ body{
   color: white;
   background-color: grey;
   text-align: center;
-  width: 50%;
+  width: 100%;
   padding: 10px;
 }
 .header img {
@@ -47,8 +47,8 @@ body{
   text-align: center;
 }
 .port-folio-container img {
-  width: 100%;
-  height:20%;
+  width: 300px;
+  height:300px;
   border: 05px solid;
   padding-right: 6.25%;
 }
@@ -97,10 +97,57 @@ body{
 }
 /* media query for mobile responsive website
 */
-@media (max-width:600px){
-  .header, .header img {
-    width:100%;
-    height: auto;
-    padding: 0px; /*The width is 100%, when the viewport is 600px or smaller*/
+@media(max-width: 767px) {
+  .header{
+    width: 100%;
+    text-align: center;
+  }
+  .header img {
+    float: none;
+    width:60%;
+  }
+}
+@media(max-width: 767px) {
+  .body {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .walapaper{
+    height: 100%;
+  }
+  .wallpaper img {
+    align-items: center;
+    height: 100%;
+    width:95%;
+  }
+  .port-folio-container img {
+    padding-left: 0px;
+    width: 85%;
+  }
+}
+@media(max-width: 767px) {
+  .footer {
+    width: 100%;
+  }
+  .footer iframe {
+    width: 100%;
+    float: none;
+  }
+  .social-sites {
+    width: 100%;
+    float: none;
+  }
+  .social-sites ul li {
+    padding-right: 10px;
+    float: none;
+  }
+  .footer a {
+    width: 100%;
+    float: right;
+  }
+
+ .social-icon {
+  padding: 15px;
   }
 }

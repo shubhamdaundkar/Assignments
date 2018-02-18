@@ -1,4 +1,4 @@
-/*css for assignment 2*/
+/*css for portfolio website designed by Shubham Doundkar*/
 body{
   padding: 0px;
   margin: 0px;
@@ -7,8 +7,8 @@ body{
   color: white;
   background-color: grey;
   text-align: center;
-  height: 100px;
-  padding: 10px
+  width: 100%;
+  padding: 0.5%;
 }
 .header img {
   float: left;
@@ -40,18 +40,22 @@ body{
   /*padding-top: 250px;
   padding-right: 300px;*/
 }
-.carrossel {
+.port-folio-container {
   padding: 20px 65px 20px 50px;
 }
-.carrossel img {
-  width: 300px;
-  height: 300px;
+.port-folio-container h2 {
+  text-align: center;
+}
+.port-folio-container img {
+  width: 100%;
+  height:20%;
   border: 05px solid;
-  padding-right: 75px;
+  padding-right: 6.25%;
 }
 .footer {
   background-color: #333;
   height: 170px;
+  width: 1276px;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -59,21 +63,44 @@ body{
   text-decoration: none;
   color: #fff;
   font-size: 30px;
+  float: left;
+  padding-right: 30px;
+  display: block;
 }
 .footer iframe {
   padding-right: 50px;
-  height: 130px;
-  width: 250px;
-  padding-bottom: 20px;
+  height: 160px;
+  width: 300px;
+  padding-left: 90px;
+  float: left;
 }
-.footer fa-facebook {
-  background: #3B5998;
+.social-icon{
+  /*background: #3B5998;*/
   color: blue;
-  /*float: right;*/
-  /*padding-top: 30px;*/
+  /*padding-right: 30px;*/
+  padding-left: 10px;
+  float: left;
 }
-.footer fa-instagram {
-  background: #125688;
-  color: blue;
-  /*padding-right: 35px;*/
+.social-web-links .social-icon:first-child {
+  padding-left: 10;
+}
+.button-up{
+}
+.button-up img {
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  height: 35px;
+  width: 35px;
+  margin-right: 0px;
+}
+/* media query starts here...
+*/
+@media (max-width:600px) {
+.header {
+  width: 100%;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
+  .footer {
+    height: 40%;
+  }
 }
