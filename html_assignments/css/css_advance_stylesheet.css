@@ -8,48 +8,50 @@
   background-color: grey;
   text-align: center;
   width: 100%;
-  padding: 10px;
+  padding: 0.5%;
 }
 .header img {
   float: left;
   width: 10%;
-  padding: 5px;
+  padding: 0.5%;
 }
 .header h4 {
   color: black;
   text-align: right;
 }
 .wallpaper {
-  padding: 0px 5px;
+  align-self: center;
 }
 .wallpaper img {
-  height: 500px;
-  width: 1180px;
-  padding: 0px 50px;
+  width: 100%;
+  padding: 0% 50px;
 }
 .wallpaper h4 {
-  padding-left: 50px;
+  padding-left: 5%;
   text-align: right;
   color: #966F33;
   position: absolute;
 }
-.wallpaper h2 {
+.wallpaper h3 {
   color: black;
   position: absolute;
-  padding: 150px 350px 100px 450px;
+  /*padding: 15%;*/
+  padding: 18.42% 16.6% 35.26% 24%;
   /*padding-top: 250px;
   padding-right: 300px;*/
 }
 .port-folio-container {
   padding: 20px 65px 20px 50px;
+/*  padding: 5%;*/
 }
 .port-folio-container h2 {
   text-align: center;
 }
 .port-folio-container img {
-  width: 300px;
-  height:300px;
-  border: 05px solid;
+  width: 18.75em;
+  height: 18.75em;
+  border: 1px solid;
+  border-style: double;
   padding-right: 6.25%;
 }
 .footer {
@@ -65,12 +67,12 @@
   font-size: 30px;
   float: left;
   padding-right: 30px;
-  display: block;
+  display: inline-block;
 }
 .footer iframe {
   padding-right: 50px;
-  height: 160px;
-  width: 300px;
+  height: 140px;
+  width: 450px;
   padding-left: 90px;
   float: left;
 }
@@ -97,7 +99,7 @@
 }
 /* media query for mobile responsive website
 */
-@media(max-width: 767px) {
+@media(max-width: 600px) {
   .header{
     width: 100%;
     text-align: center;
@@ -126,27 +128,29 @@
     width: 85%;
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 768px) {
   .footer {
     width: 100%;
   }
   .footer iframe {
-    width: 100%;
+    width: 250px;
+    height: 75px;
     float: none;
+    align-self: center;
   }
   .social-sites {
-    width: 100%;
+    width: 33.33%;
     float: none;
   }
-  .social-sites ul li {
+/*  .social-sites ul li {
     padding-right: 10px;
     float: none;
-  }
+  }*/
   .footer a {
-    width: 100%;
+    width: 33.33%;
     float: right;
+    display: inline-block;
   }
-
  .social-icon {
   padding: 15px;
   }
